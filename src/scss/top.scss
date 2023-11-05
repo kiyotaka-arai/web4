@@ -1,0 +1,13 @@
+// ミックスイン
+@use "parts/setting";
+
+div{
+    text-align: center;
+    // 引数あり
+    // @include setting.break(lg){
+    //     text-align: center;
+    // }
+    @include setting.break(){
+        text-align: center;
+    }
+}

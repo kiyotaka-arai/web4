@@ -1,0 +1,16 @@
+// リセット
+@use "parts/reset";
+// ベーススタイル
+@use "parts/base";
+// 色の管理
+@use "parts/setting";
+// ミックスイン
+// @use "parts/mixin";
+// レイアウト（ヘッダー、フッター等）
+@use "parts/layout";
+// コンポーネント
+@use "parts/component";
+// 各ページコンテンツ部分（コンポーネントを上書き）
+// @use "pages/home";
+// ユーティリティ
+@use "parts/utility";
